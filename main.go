@@ -18,7 +18,7 @@ import (
 )
 
 func main() {
-NewBot("628388024064", func(k string) {
+NewBot("6281649357107", func(k string) {
 	println(k)
 })
 	/* web server */
@@ -28,7 +28,7 @@ NewBot("628388024064", func(k string) {
 	}
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprint(w, "readsw Bot Connected")
+		fmt.Fprint(w, "MyRenn SW Bot Connected")
 	})
 
 	err := http.ListenAndServe(":"+port, nil)
