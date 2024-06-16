@@ -1,1 +1,1 @@
-worker: node index.js --autocleartmp --autoread
+worker: go run main.go
