@@ -16,4 +16,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "index.js", "--autoread"]
+CMD ["go", "run", "main.go"]
