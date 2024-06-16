@@ -1,1 +1,1 @@
-web: pm2 start "bin/frm" --attach
+worker: node index.js --autocleartmp --autoread
